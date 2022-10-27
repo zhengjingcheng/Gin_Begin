@@ -14,6 +14,6 @@ func main() {
 
 func getMsg(c *gin.Context) {
 	name := c.Query("name")
-	c.String(http.StatusOK, "欢迎您:%s", name)
+	c.String(http.StatusOK, "欢迎您hhh:%s", name)
 
 }
